@@ -1,0 +1,1 @@
+This is static page about the user - Paxnamra
