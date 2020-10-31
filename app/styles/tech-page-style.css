@@ -1,0 +1,13 @@
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+p {
+	text-align: center;
+}
+
+.tech-panel-bg {
+	background-color: #2B2C2B;
+}
+

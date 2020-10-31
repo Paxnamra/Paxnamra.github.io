@@ -1,0 +1,173 @@
+p {
+	font-family: jetbrainsultralight;
+	font-size: 23px;
+	margin: 4% 0 4% 0;
+	display: block;
+}
+
+.info p {
+	font-size: 15px;
+	font-family: latolight;
+	text-align: center;
+	color: white;
+	margin: 5px;
+}
+
+.main-bg {
+	background-color: #2B2C2B;
+	width: 100%;
+	height: 100%;
+}
+
+.link-style {
+	background-color: #72BF44;
+	height: 20px;
+	width: 80%;
+	padding: 10px;
+	margin: 3px auto;
+	border-radius: 5px;
+	color: white;
+	font-family: robotocondensedbold;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.link-style:hover {
+	background-color: #964A9C;
+	transition: background-color .2s;
+}
+
+.link-icon-one {
+	padding-top: 5px;
+	height: 20px;
+	width: 80%;
+	padding: 10px;
+	margin: 3px auto;
+	background-color: transparent;
+	border: #72BF44 2px solid;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.link-icon-two {
+	padding-top: 5px;
+	height: 20px;
+	width: 80%;
+	padding: 10px;
+	margin: 3px auto;
+	background-color: transparent;
+	border: #72BF44 2px solid;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.link-icon-one:hover , .link-icon-two:hover {
+	border: #964A9C 2px solid;
+	transition: background-color .2s;
+}
+ 
+.link-icon-one:hover img {
+	opacity: 0;
+}
+
+.link-icon-one img {
+	bottom: 8px;
+	position: relative;
+	display: inline-block;
+}
+
+.link-icon-two img {
+	bottom: 8px;
+	position: relative;
+	display: inline-block;
+}
+
+.link-icon-two:hover img {
+	opacity: 0;
+}
+
+.link-icon-three img:hover  {
+	opacity: 100;
+}
+
+.link-icon-four img:hover  {
+	opacity: 100;
+}
+
+.link-icon-three img {
+	bottom: 45px;
+	position: relative;
+	display: none;
+	opacity: 0;
+}
+
+.link-icon-four img {
+	bottom: 45px;
+	position: relative;
+	display: none;
+	opacity: 0;
+}
+
+.main-panel-box {
+	padding: 10px 40px 250px 40px;
+	margin: 0 auto;
+	margin-top: 8%;
+	width: 25%;
+	height: 150px;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.main-panel {
+	text-align: center;
+}
+
+@font-face {
+	font-family: "jetbrainsultralight";
+	font-weight: 200;
+	src: url("../fonts/JetBrainsMono-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "jetbrainsregular";
+	font-weight: 400;
+	src: url("../fonts/JetBrainsMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "jetbrainslight";
+	font-weight: 300;
+	src: url("../fonts/JetBrainsMono-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "latolight";
+	font-weight: 300;
+	src: url("../fonts/Lato-Light.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "latoregular";
+	font-weight: 400;
+	src: url("../fonts/Lato-Regular.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "latobold";
+	font-weight: 700;
+	src: url("../fonts/Lato-Bold.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "robotocondensedregular";
+	font-weight: 400;
+	src: url("../fonts/RobotoCondensed-Regular.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "robotocondensedbold";
+	font-weight: 700;
+	src: url("../fonts/RobotoCondensed-Bold.ttf") format('truetype');
+}
